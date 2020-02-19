@@ -6,7 +6,7 @@
 #
 
 resource "aws_iam_role" "demo-cluster" {
-  name = "terraform-eks-demo-cluster"
+  name = "ahar-terraform-eks-demo-cluster"
 
   assume_role_policy = <<POLICY
 {
